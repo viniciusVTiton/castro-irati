@@ -145,8 +145,10 @@ $('#ch3').innerHTML=bars(0,'População',73075,59250,n)+bars(0,'Área (km²)',25
 const H={c:[['Hotel para casal',2,2,200,450],['Casa 2–4 pessoas',2,4,180,350],['Casa 4–8 pessoas',4,8,350,700],['Casa 10+ pessoas',10,10,750,1500]],
 i:[['Hotel para casal',2,2,150,350],['Casa 2–4 pessoas',2,4,180,350],['Casa 4–8 pessoas',4,8,350,650],['Casa 10+ pessoas',10,10,700,1300]]};
 const pro={'Hotel':['Pouca logística, café da manhã comum','Pouco espaço para o grupo'],'Casa 2':['Mais econômica para grupos pequenos','Capacidade limitada'],'Casa 4':['Divide custo e permite convivência','Disponibilidade a confirmar'],'Casa 1':['Todo o grupo junto','Capacidade a confirmar; pode exigir várias casas']};
+function lk(c,h){const g=h[2],bk=`https://www.booking.com/searchresults.pt-br.html?ss=${c}%2C+Paran%C3%A1&group_adults=${g}&no_rooms=1`,ab=`https://www.airbnb.com.br/s/${c}--Paran%C3%A1--Brasil/homes?adults=${g}&price_max=${h[4]}`;
+const x='class="btn noprint" target="_blank" rel="noopener"';return h[0].startsWith('Hotel')?`<a ${x} href="${bk}">Booking</a>`:`<a ${x} href="${ab}">Airbnb</a> <a ${x} href="${bk}">Booking</a>`}
 function hot(k,city,url){return H[k].map(h=>{const lo=h[3]/h[2],hi=h[4]/h[1],p=pro[h[0].slice(0,6).trim()]||pro[h[0].slice(0,5)]||pro['Hotel'];
-return `<div class="card"><b>${h[0]}</b><br>Hóspedes: ${h[1]==h[2]?h[1]:h[1]+'–'+h[2]}<br>${brl(h[3])}–${brl(h[4])}/noite<br><small>≈ ${brl(lo)}–${brl(hi)} por pessoa/noite</small><br><small>＋ ${p[0]}<br>− ${p[1]}</small><br><a class="btn noprint" target="_blank" rel="noopener" href="${url}">Pesquisar</a></div>`}).join('')}
+return `<div class="card"><b>${h[0]}</b><br>Hóspedes: ${h[1]==h[2]?h[1]:h[1]+'–'+h[2]}<br>${brl(h[3])}–${brl(h[4])}/noite<br><small>≈ ${brl(lo)}–${brl(hi)} por pessoa/noite</small><br><small>＋ ${p[0]}<br>− ${p[1]}</small><br>${lk(city,h)}</div>`}).join('')}
 $('#hc').innerHTML=hot('c','Castro','https://www.airbnb.com.br/castro-brazil/stays');
 $('#hi').innerHTML=hot('i','Irati','https://www.airbnb.com.br/irati-brazil/stays');
 // simulator
