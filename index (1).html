@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Análise de Apoio à Pregação — Castro x Irati (PR)</title>
+<style>
+:root{--bg:#f3f6f7;--card:#fff;--tx:#17313a;--mu:#5b717a;--pt:#0f5c6e;--pt2:#0a4452;--gr:#2f9e6b;--ln:#dbe4e7;--am:#b7791f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1a1f;--card:#16262d;--tx:#e6eef0;--mu:#9bb0b7;--pt:#4fb3c7;--pt2:#1d6a7d;--gr:#4cc38a;--ln:#27404a;--am:#e0a84a}}
+*{box-sizing:border-box}html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--pt2);color:#fff;display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 14px}
+header h1{font-size:15px;margin:0;flex:1;min-width:180px}
+button,.btn{font:inherit;font-size:13px;border:1px solid var(--ln);background:var(--card);color:var(--tx);border-radius:8px;padding:6px 10px;cursor:pointer;text-decoration:none;display:inline-block}
+header button{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.3)}
+button.pri{background:var(--gr);color:#fff;border-color:var(--gr)}
+nav{display:flex;gap:6px;overflow-x:auto;padding:8px 14px;background:var(--card);border-bottom:1px solid var(--ln)}
+nav button{white-space:nowrap}nav button.on{background:var(--pt);color:#fff;border-color:var(--pt)}
+main{max-width:1000px;margin:0 auto;padding:18px 14px 80px}
+.slide{display:none;animation:in .35s}.slide.active,body.report .slide{display:block}
+body.report .slide{margin-bottom:36px}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+h2{color:var(--pt);margin:.2em 0 .6em;font-size:clamp(22px,4vw,32px)}h3{margin:.8em 0 .3em;color:var(--pt)}
+.hero{background:linear-gradient(135deg,var(--pt2),var(--pt));color:#fff;border-radius:16px;padding:28px}
+.hero h2{color:#fff;font-size:clamp(26px,5vw,42px)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:12px;padding:14px}
+.tag{font-size:11px;font-weight:600;border-radius:99px;padding:2px 8px;margin-right:4px;display:inline-block}
+.t-inf{background:#d7ecf3;color:#0a4452}.t-pub{background:#dff3e8;color:#17623f}.t-est{background:#fbefd3;color:#7a5410}.t-pen{background:#f6dcdc;color:#8a2323}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--ln);text-align:left}th{background:var(--pt);color:#fff}td.n{text-align:right}
+.scroll{overflow-x:auto}
+.warn{border-left:4px solid var(--am);background:var(--card);padding:10px 14px;border-radius:8px;margin:12px 0;font-size:14px}
+.bar{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:13px}.bar span.l{width:62px}
+.bar i{display:block;height:16px;border-radius:4px;min-width:2px}.c1{background:var(--pt)}.c2{background:var(--gr)}
+.src a{color:var(--pt);word-break:break-all}
+label{display:block;font-size:13px;color:var(--mu)}input[type=number]{width:100%;padding:6px;border:1px solid var(--ln);border-radius:6px;background:var(--bg);color:var(--tx);font:inherit}
+.big{font-size:26px;font-weight:700;color:var(--pt)}
+.tl{margin:12px 0}.tl .row{margin:10px 0}.tl .trk{height:22px;background:var(--ln);border-radius:11px;overflow:hidden}.tl .trk b{display:block;height:100%;border-radius:11px}
+.chk label{display:flex;gap:8px;color:var(--tx);font-size:15px;padding:6px 0;align-items:flex-start}
+.ctl{position:fixed;bottom:calc(10px + env(safe-area-inset-bottom,0px));left:0;right:0;display:flex;justify-content:center;gap:10px;z-index:4}
+body.report .ctl{display:none}
+.ctl button{box-shadow:0 2px 8px #0003;padding:9px 18px}
+.mapbox svg{width:100%;height:auto}
+.toast{position:fixed;top:70px;right:14px;background:var(--gr);color:#fff;padding:8px 14px;border-radius:8px;display:none;z-index:9}
+@media print{header,nav,.ctl,.toast,.noprint{display:none!important}.slide{display:block!important;break-inside:avoid;margin-bottom:20px}body{background:#fff}}
+</style></head><body>
+<header><h1>Análise de Apoio à Pregação — Castro x Irati (PR)</h1>
+<button onclick="setMode()" id="mb">Modo relatório</button><button onclick="fs()">Tela cheia</button><button onclick="share()">Compartilhar</button><button onclick="window.print()">Imprimir/PDF</button></header>
+<nav id="nav"></nav><div class="toast" id="toast">Copiado!</div>
+<main id="main">
+
+<section class="slide" data-t="Início"><div class="hero"><p style="opacity:.8;margin:0">Congregação Ipê · São José dos Pinhais/PR</p>
+<h2>Onde nosso apoio pode fazer mais diferença?</h2><p>Castro x Irati — Paraná. Estudo comparativo de necessidades, deslocamento, hospedagem e custos.</p></div>
+<div class="grid" style="margin-top:14px"><div class="card"><div class="big">1</div><b>Necessidade de apoio</b><br>Frequência de pregação nos territórios.</div><div class="card"><div class="big">2</div><b>Deslocamento e hospedagem</b><br>Viabilidade da viagem em grupo.</div><div class="card"><div class="big">3</div><b>Custos da visita</b><br>Simulador editável.</div></div>
+<h3>Mapa ilustrativo</h3><div class="card mapbox"><svg viewBox="0 0 600 400" role="img" aria-label="Mapa esquemático">
+<path d="M70 120 L260 40 L470 70 L560 200 L520 320 L330 370 L150 340 L60 240Z" fill="var(--bg)" stroke="var(--ln)" stroke-width="2"/>
+<g stroke="var(--pt)" stroke-width="2" stroke-dasharray="6 5"><line x1="460" y1="250" x2="300" y2="130"/><line x1="460" y1="250" x2="270" y2="300"/></g>
+<g font-size="14" fill="var(--tx)"><circle cx="460" cy="250" r="9" fill="var(--pt)"/><text x="400" y="278">São José dos Pinhais</text>
+<circle cx="300" cy="130" r="9" fill="var(--gr)"/><text x="315" y="128">Castro (~176 km)</text>
+<circle cx="270" cy="300" r="9" fill="var(--gr)"/><text x="130" y="330">Irati (~167 km)</text></g></svg>
+<small style="color:var(--mu)">Posições esquemáticas, sem escala. Não substitui mapa oficial.</small></div></section>
+
+<section class="slide" data-t="Congregações"><h2>Comparativo das congregações</h2>
+<p><span class="tag t-inf">Dado informado</span>Dados fornecidos pelo grupo.</p>
+<div class="scroll"><table><tr><th>Indicador</th><th>Castro</th><th>Irati</th></tr>
+<tr><td>Publicadores</td><td>82</td><td>64</td></tr><tr><td>Anciãos</td><td>7</td><td>9</td></tr>
+<tr><td>Servos ministeriais</td><td>4</td><td><span class="tag t-pen">Não informado</span></td></tr>
+<tr><td>Pioneiros regulares</td><td>10</td><td>9</td></tr><tr><td>Pioneiros especiais</td><td>2</td><td><span class="tag t-pen">Não informado</span></td></tr>
+<tr><td>Pioneiros informados</td><td>12</td><td>9</td></tr><tr><td>Publicadores por ancião</td><td>11,7</td><td>7,1</td></tr></table></div>
+<h3>Gráfico comparativo</h3><div class="card" id="ch2"></div>
+<div class="warn">Irati possui 18 publicadores a menos, mas isso, isoladamente, não determina a necessidade de apoio.</div></section>
+
+<section class="slide" data-t="Geografia"><h2>População e densidade geográfica</h2>
+<p><span class="tag t-pub">Dado público</span>Censo 2022 (IBGE). <span class="tag t-est">Estimativa</span>Indicadores por publicador são calculados.</p>
+<div class="grid" id="ch3"></div>
+<div class="card" style="margin-top:12px">Castro tem cerca de 2,5 vezes a extensão territorial de Irati, o que pode dificultar deslocamentos, sobretudo em áreas rurais. Irati tem um número ligeiramente maior de habitantes por publicador (926 contra 891).</div>
+<div class="warn"><b>Aviso:</b> Os cálculos utilizam dados dos municípios. Os territórios designados às congregações podem não corresponder aos limites municipais. Portanto, esses indicadores são apenas referências para análise.</div>
+<p class="src">Fontes: <a href="https://www.ibge.gov.br/cidades-e-estados/pr/castro.html" target="_blank" rel="noopener">IBGE — Castro</a> · <a href="https://www.ibge.gov.br/cidades-e-estados/pr/irati.html" target="_blank" rel="noopener">IBGE — Irati</a></p></section>
+
+<section class="slide" data-t="Necessidade"><h2>Necessidade de apoio na pregação</h2><p><span class="tag t-inf">Dado informado</span></p>
+<div class="grid"><div class="card"><h3>Castro — desafio territorial</h3>Territórios menos trabalhados são visitados a cada 6 a 8 meses.<ul><li>Grande extensão territorial</li><li>Deslocamentos entre regiões rurais</li><li>Organizar grupos para áreas afastadas</li><li>Manter maior frequência de visitas</li></ul>Um grupo de apoio poderia reduzir os intervalos entre visitas.</div>
+<div class="card"><h3>Irati — urgência em Gonçalves Júnior</h3>Uma área do território não é trabalhada há cerca de 2 anos.<ul><li>Acesso a regiões afastadas</li><li>Estradas rurais</li><li>Disponibilidade de publicadores</li><li>Visita específica a organizar</li></ul>O longo período sem pregação é o principal indicador de urgência apresentado até agora.</div></div>
+<h3>Linha do tempo (meses sem pregação)</h3><div class="card tl">
+<div class="row">Castro: 6 a 8 meses<div class="trk"><b class="c1" style="width:33%"></b></div></div>
+<div class="row">Irati: ~24 meses<div class="trk"><b class="c2" style="width:100%"></b></div></div>
+<small>Barra de Castro usa o limite de 8 meses. Irati apresenta maior urgência aparente quanto ao tempo sem pregação.</small></div></section>
+
+<section class="slide" data-t="Distâncias"><h2>Distâncias e rodovias</h2>
+<p>Ponto de partida: Congregação Ipê, São José dos Pinhais/PR (endereço exato do Salão do Reino não informado). <span class="tag t-est">Estimativa</span></p>
+<div class="grid"><div class="card"><h3>Castro</h3><b>176 km</b> por trecho · <b>352 km</b> ida e volta<br>Tempo: 2h20 a 2h50<br>BR-376 e PR-151, predominantemente pavimentado.<br>Atenção: caminhões, clima, pedágios.<br><br><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=S%C3%A3o+Jos%C3%A9+dos+Pinhais,PR&destination=Castro,PR">Abrir rota no Google Maps</a></div>
+<div class="card"><h3>Irati</h3><b>167 km</b> por trecho · <b>334 km</b> ida e volta<br>Tempo: 2h a 2h40<br>BR-277, percurso principal pavimentado.<br>Atenção: caminhões, chuva, neblina, pedágios.<br><br><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=S%C3%A3o+Jos%C3%A9+dos+Pinhais,PR&destination=Irati,PR">Abrir rota no Google Maps</a></div></div>
+<div class="warn"><span class="tag t-pen">Pendente</span><b>Gonçalves Júnior:</b> a distância entre Irati e a área específica ainda precisa ser confirmada. Não há quilometragem nem condição de estradas rurais informadas.</div>
+<div class="warn">Tempos e condições são referências de planejamento, não informações de trânsito em tempo real.</div></section>
+
+<section class="slide" data-t="Hospedagem"><h2>Hospedagens e preços</h2>
+<div class="warn"><span class="tag t-est">Estimativa</span>Faixas por noite, apenas para planejamento. Não são preços confirmados, nem há imóveis, avaliações ou disponibilidade verificados. Em Irati, a faixa para 10+ pessoas é só previsão orçamentária; nenhum imóvel com essa capacidade foi confirmado.</div>
+<h3>Castro</h3><div class="grid" id="hc"></div><h3>Irati</h3><div class="grid" id="hi"></div>
+<p class="src noprint">Consultar: <a href="https://www.airbnb.com.br/castro-brazil/stays" target="_blank" rel="noopener">Airbnb Castro</a> · <a href="https://www.booking.com/searchresults.pt-br.html?ss=Castro%2C+Paran%C3%A1" target="_blank" rel="noopener">Booking Castro</a> · <a href="https://www.airbnb.com.br/irati-brazil/stays" target="_blank" rel="noopener">Airbnb Irati</a> · <a href="https://www.booking.com/searchresults.pt-br.html?ss=Irati%2C+Paran%C3%A1" target="_blank" rel="noopener">Booking Irati</a></p></section>
+
+<section class="slide" data-t="Simulador"><h2>Simulador de custos</h2>
+<div class="warn">Pedágios, km extras e alimentação começam em zero: preencha com valores reais. Tudo é editável e fica salvo apenas neste navegador.</div>
+<div class="grid card" id="inp"></div>
+<div class="grid" style="margin-top:12px" id="res"></div>
+<div class="card" style="margin-top:12px"><b>Composição dos custos</b><div id="ch7"></div></div>
+<p><button class="pri" onclick="copySim()">Copiar simulação (WhatsApp)</button> <button onclick="resetSim()">Restaurar valores iniciais</button></p></section>
+
+<section class="slide" data-t="Matriz"><h2>Matriz de decisão</h2>
+<div class="scroll"><table><tr><th>Critério</th><th>Castro</th><th>Irati</th></tr>
+<tr><td>Publicadores</td><td>82</td><td>64</td></tr><tr><td>Habitantes por publicador</td><td>891</td><td>926</td></tr>
+<tr><td>Extensão territorial municipal</td><td>Maior</td><td>Menor</td></tr>
+<tr><td>Intervalo nos territórios menos trabalhados</td><td>6–8 meses</td><td>Até 24 meses</td></tr>
+<tr><td>Rodovias principais</td><td>Pavimentadas</td><td>Pavimentadas</td></tr>
+<tr><td>Hospedagem para grupos</td><td>Opções a consultar</td><td>Opções a consultar</td></tr>
+<tr><td>Necessidade predominante</td><td>Apoio recorrente</td><td>Cobertura urgente de uma área</td></tr></table></div>
+<h3>Avaliação dos responsáveis</h3><div class="warn">Sem pontuação automática: os dados ainda estão incompletos. Registre a avaliação do grupo (salva só neste navegador).</div>
+<div class="grid" id="eval"></div>
+<h3>Checklist</h3><div class="card chk" id="chk"></div></section>
+
+<section class="slide" data-t="Conclusão"><h2>Onde nosso apoio pode fazer mais diferença?</h2>
+<div class="grid"><div class="card"><h3>Castro</h3>Desafios ligados à extensão territorial e à frequência com que algumas regiões recebem a pregação. Um grupo de apoio poderia diminuir o intervalo entre as visitas.</div>
+<div class="card"><h3>Irati</h3>Necessidade aparentemente mais urgente, pela área de Gonçalves Júnior sem pregação há cerca de dois anos. Uma visita organizada poderia alcançar essa região.</div></div>
+<div class="hero" style="margin-top:14px"><b>Parecer preliminar</b><p>“Com base nos dados disponíveis, Irati apresenta maior urgência aparente quanto à frequência de pregação, principalmente pela situação de Gonçalves Júnior. Castro também possui necessidades importantes, especialmente relacionadas à extensão territorial. A decisão final deve considerar as informações e orientações dos irmãos responsáveis pelas respectivas congregações.”</p></div>
+<p class="src"><span class="tag t-inf">Informado</span><span class="tag t-pub">Público</span><span class="tag t-est">Estimativa</span><span class="tag t-pen">Pendente</span> — legenda dos tipos de dado.</p></section>
+</main>
+<div class="ctl"><button onclick="go(-1)">← Anterior</button><button class="pri" onclick="go(1)">Próximo →</button></div>
+<script>
+const $=s=>document.querySelector(s),S=[...document.querySelectorAll('.slide')];let cur=0;
+const brl=v=>v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const ld=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}};
+const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+function toast(m){const t=$('#toast');t.textContent=m||'Copiado!';t.style.display='block';setTimeout(()=>t.style.display='none',1800)}
+function show(i){cur=Math.max(0,Math.min(S.length-1,i));S.forEach((s,k)=>s.classList.toggle('active',k==cur));document.querySelectorAll('#nav button').forEach((b,k)=>b.classList.toggle('on',k==cur));scrollTo(0,0)}
+function go(d){show(cur+d)}
+S.forEach((s,i)=>{const b=document.createElement('button');b.textContent=(i+1)+'. '+s.dataset.t;b.onclick=()=>{if(document.body.classList.contains('report'))s.scrollIntoView({behavior:'smooth'});else show(i)};$('#nav').appendChild(b)});
+function setMode(){const r=document.body.classList.toggle('report');$('#mb').textContent=r?'Modo apresentação':'Modo relatório'}
+function fs(){try{document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}catch(e){}}
+async function copy(t){try{await navigator.clipboard.writeText(t);toast()}catch(e){prompt('Copie:',t)}}
+async function share(){const u=location.href;if(navigator.share){try{await navigator.share({title:document.title,url:u});return}catch(e){}}copy(u)}
+addEventListener('keydown',e=>{if(/INPUT|TEXTAREA/.test(e.target.tagName))return;if(e.key=='ArrowRight'||e.key=='PageDown')go(1);if(e.key=='ArrowLeft'||e.key=='PageUp')go(-1);if(e.key=='f')fs()});
+// bar charts
+function bars(el,title,a,b,fmt){const m=Math.max(a,b);return `<div class="card"><b>${title}</b><div class="bar"><span class="l">Castro</span><i class="c1" style="width:${a/m*60}%"></i>${fmt(a)}</div><div class="bar"><span class="l">Irati</span><i class="c2" style="width:${b/m*60}%"></i>${fmt(b)}</div></div>`}
+const n=v=>v.toLocaleString('pt-BR',{maximumFractionDigits:1});
+$('#ch2').innerHTML=bars(0,'Publicadores',82,64,n)+bars(0,'Anciãos',7,9,n)+bars(0,'Pioneiros (informados)',12,9,n);
+$('#ch3').innerHTML=bars(0,'População',73075,59250,n)+bars(0,'Área (km²)',2526.5,1000.2,n)+bars(0,'Densidade (hab/km²)',28.9,59.2,n)+bars(0,'Habitantes por publicador',891,926,n)+bars(0,'Área municipal por publicador (km²)',30.8,15.6,n);
+// lodging
+const H={c:[['Hotel para casal',2,2,200,450],['Casa 2–4 pessoas',2,4,180,350],['Casa 4–8 pessoas',4,8,350,700],['Casa 10+ pessoas',10,10,750,1500]],
+i:[['Hotel para casal',2,2,150,350],['Casa 2–4 pessoas',2,4,180,350],['Casa 4–8 pessoas',4,8,350,650],['Casa 10+ pessoas',10,10,700,1300]]};
+const pro={'Hotel':['Pouca logística, café da manhã comum','Pouco espaço para o grupo'],'Casa 2':['Mais econômica para grupos pequenos','Capacidade limitada'],'Casa 4':['Divide custo e permite convivência','Disponibilidade a confirmar'],'Casa 1':['Todo o grupo junto','Capacidade a confirmar; pode exigir várias casas']};
+function lk(c,h){const g=h[2],bk=`https://www.booking.com/searchresults.pt-br.html?ss=${c}%2C+Paran%C3%A1&group_adults=${g}&no_rooms=1`,ab=`https://www.airbnb.com.br/s/${c}--Paran%C3%A1--Brasil/homes?adults=${g}&price_max=${h[4]}`;
+const x='class="btn noprint" target="_blank" rel="noopener"';return h[0].startsWith('Hotel')?`<a ${x} href="${bk}">Booking</a>`:`<a ${x} href="${ab}">Airbnb</a> <a ${x} href="${bk}">Booking</a>`}
+function hot(k,city,url){return H[k].map(h=>{const lo=h[3]/h[2],hi=h[4]/h[1],p=pro[h[0].slice(0,6).trim()]||pro[h[0].slice(0,5)]||pro['Hotel'];
+return `<div class="card"><b>${h[0]}</b><br>Hóspedes: ${h[1]==h[2]?h[1]:h[1]+'–'+h[2]}<br>${brl(h[3])}–${brl(h[4])}/noite<br><small>≈ ${brl(lo)}–${brl(hi)} por pessoa/noite</small><br><small>＋ ${p[0]}<br>− ${p[1]}</small><br>${lk(city,h)}</div>`}).join('')}
+$('#hc').innerHTML=hot('c','Castro','https://www.airbnb.com.br/castro-brazil/stays');
+$('#hi').innerHTML=hot('i','Irati','https://www.airbnb.com.br/irati-brazil/stays');
+// simulator
+const F=[['p','Participantes (2–30)',8,2,30],['pc','Pessoas por carro (2–5)',4,2,5],['nt','Noites (1–5)',2,1,5],['kl','Consumo (km/L)',12,1,50],['gas','Gasolina (R$/L)',6.5,0,20],['hc','Hospedagem Castro (R$/noite)',550,0,99999],['hi','Hospedagem Irati (R$/noite)',500,0,99999],['ped','Pedágios por carro (R$)',0,0,9999],['ex','Km extras por carro',0,0,9999],['al','Alimentação por pessoa (R$)',0,0,9999]];
+let sim=Object.assign(Object.fromEntries(F.map(f=>[f[0],f[2]])),ld('sim',{}));
+$('#inp').innerHTML=F.map(f=>`<label>${f[1]}<input type="number" id="s_${f[0]}" min="${f[3]}" max="${f[4]}" step="any" value="${sim[f[0]]}"></label>`).join('');
+F.forEach(f=>$('#s_'+f[0]).addEventListener('input',e=>{const v=parseFloat(e.target.value);sim[f[0]]=isNaN(v)?0:v;sv('sim',sim);calc()}));
+function resetSim(){F.forEach(f=>{sim[f[0]]=f[2];$('#s_'+f[0]).value=f[2]});sv('sim',sim);calc()}
+let R={};
+function calc(){const p=Math.max(1,sim.p),car=Math.ceil(p/Math.max(1,sim.pc));const d={Castro:[176,sim.hc],Irati:[167,sim.hi]};
+R={};for(const c in d){const fu=((d[c][0]*2+sim.ex)/Math.max(sim.kl,.1))*sim.gas*car,ho=d[c][1]*sim.nt,pe=sim.ped*car,al=sim.al*p,t=fu+ho+pe+al;R[c]={fu,ho,pe,al,t,pp:t/p}}
+R.car=car;
+$('#res').innerHTML=['Castro','Irati'].map(c=>{const r=R[c];return `<div class="card"><h3>${c}</h3><div class="big">${brl(r.t)}</div><small>${brl(r.pp)} por pessoa · ${car} carro(s)</small><br>Combustível: ${brl(r.fu)}<br>Hospedagem: ${brl(r.ho)}<br>Pedágios: ${brl(r.pe)}<br>Alimentação: ${brl(r.al)}</div>`}).join('');
+const cols=[['fu','Combustível','#0f5c6e'],['ho','Hospedagem','#2f9e6b'],['pe','Pedágios','#b7791f'],['al','Alimentação','#7a8fa0']];
+$('#ch7').innerHTML=['Castro','Irati'].map(c=>{const r=R[c];return `<div style="margin:10px 0">${c}<div style="display:flex;height:22px;border-radius:6px;overflow:hidden;background:var(--ln)">${cols.map(x=>`<div title="${x[1]}" style="width:${r.t?r[x[0]]/r.t*100:0}%;background:${x[2]}"></div>`).join('')}</div></div>`}).join('')+'<small>'+cols.map(x=>`<span style="color:${x[2]}">■</span> ${x[1]}`).join(' &nbsp; ')+'</small>'}
+function copySim(){const L=c=>{const r=R[c];return `${c}: total ${brl(r.t)} (${brl(r.pp)}/pessoa) — comb. ${brl(r.fu)}, hosp. ${brl(r.ho)}, pedágios ${brl(r.pe)}, alim. ${brl(r.al)}`};
+copy(`*Simulação de apoio à pregação*\n${sim.p} participantes, ${R.car} carro(s), ${sim.nt} noite(s)\n${L('Castro')}\n${L('Irati')}\n(Valores estimados para planejamento)`)}
+calc();
+// eval + checklist
+const E=['Necessidade de cobertura','Viabilidade de deslocamento','Disponibilidade de participantes','Custos'];let ev=ld('ev',{});
+$('#eval').innerHTML=E.map((e,i)=>`<div class="card"><b>${e}</b><br><label>Anotação — Castro<input type="text" id="e${i}c" style="width:100%"></label><label>Anotação — Irati<input type="text" id="e${i}i" style="width:100%"></label></div>`).join('');
+E.forEach((e,i)=>['c','i'].forEach(k=>{const el=$('#e'+i+k);el.value=ev[i+k]||'';el.addEventListener('input',()=>{ev[i+k]=el.value;sv('ev',ev)})}));
+const CK=['Confirmar quantidade de territórios pendentes em Castro','Confirmar a extensão da área de Gonçalves Júnior','Confirmar a população dos territórios que precisam de apoio','Verificar condições das estradas rurais','Confirmar número de participantes','Solicitar preços reais de hospedagem','Definir datas da visita','Alinhar a programação com os irmãos responsáveis'];let ck=ld('ck',{});
+$('#chk').innerHTML=CK.map((c,i)=>`<label><input type="checkbox" ${ck[i]?'checked':''} data-i="${i}">${c}</label>`).join('');
+document.querySelectorAll('#chk input').forEach(b=>b.addEventListener('change',()=>{ck[b.dataset.i]=b.checked;sv('ck',ck)}));
+show(0);
+</script></body></html>
